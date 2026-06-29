@@ -3,10 +3,10 @@ from app.repositories import rep_clientes, rep_creditos
 
 # Tablas de referencia
 TEA_POR_TIPO = {
-    "ME": {"min": 28.0, "mid": 40.0, "max": 55.0},
+    "ME": {"min": 40.92, "mid": 43.92, "max": 55.0},
     "PE": {"min": 18.0, "mid": 25.0, "max": 32.0},
-    "CO": {"min": 22.0, "mid": 33.0, "max": 45.0},
-    "HI": {"min":  9.0, "mid": 11.5, "max": 14.0},
+    "CO": {"min": 51.00, "mid": 70.00, "max": 109.83},
+    "HI": {"min": 8.50, "mid": 9.75, "max": 11.00},
     "GE": {"min": 12.0, "mid": 15.0, "max": 18.0},
 }
 
